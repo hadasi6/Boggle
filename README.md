@@ -18,10 +18,20 @@ The Boggle game is structured following the Model-View-Controller (MVC) design p
 3. **End**: Timer runs out, final score displayed, option to restart or exit.
 
 ---
-## ScreenShots
-![image](https://github.com/user-attachments/assets/3e53b5b5-1cd3-4c2b-90a6-40b7ff550f7c)
-![image](https://github.com/user-attachments/assets/7fa5b28d-1e1d-4c7f-9c50-343f52fcde97)
-![image](https://github.com/user-attachments/assets/8ad3c405-977a-49f9-a88b-51a49cec7330)
-![image](https://github.com/user-attachments/assets/58626178-cceb-4bad-a9d6-895142141c3c)
+## Screenshots
 
-כ
+Start Screen:
+
+<img src="https://github.com/user-attachments/assets/3e53b5b5-1cd3-4c2b-90a6-40b7ff550f7c" width="300">
+
+Game Screen:
+
+<img src="https://github.com/user-attachments/assets/7fa5b28d-1e1d-4c7f-9c50-343f52fcde97" width="300">
+
+End Screen:
+
+<img src="https://github.com/user-attachments/assets/8ad3c405-977a-49f9-a88b-51a49cec7330" width="300">
+
+Menu Screen:
+
+<img src="https://github.com/user-attachments/assets/58626178-cceb-4bad-a9d6-895142141c3c" width="300">
