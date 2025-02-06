@@ -1,6 +1,6 @@
 import tkinter as tki
 import tkinter.font as tkif
-from color_pallete import TILE_GRID_TEXT_COLOR, TILE_GRID_BUTTON_COLOR
+from src.color_pallete import TILE_GRID_TEXT_COLOR, TILE_GRID_BUTTON_COLOR
 
 
 class TileGrid:

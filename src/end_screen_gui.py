@@ -1,6 +1,6 @@
 import tkinter as tki
 import tkinter.font as tkif
-from color_pallete import BG_COLOR, SECONDARY_TEXT_COLOR
+from src.color_pallete import BG_COLOR, SECONDARY_TEXT_COLOR
 
 
 class EndScreenGui:

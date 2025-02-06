@@ -1,7 +1,7 @@
 import tkinter as tki
 import tkinter.font as tkif
 
-from color_pallete import BG_COLOR, SECONDARY_TEXT_COLOR, USED_WORDS_BORDER_COLOR
+from src.color_pallete import BG_COLOR, SECONDARY_TEXT_COLOR, USED_WORDS_BORDER_COLOR
 from tile_grid import TileGrid
 from timer import Timer
 
@@ -147,7 +147,7 @@ class GameScreenGui:
         main_menu_button.grid(row=0, column=1)
 
     def display_help(self):
-        help_image = tki.PhotoImage(file="help.png")
+        help_image = tki.PhotoImage(file="../assets/help.png")
         self._help_image = help_image  # Fixes a bug in tkinter where the image is freed
         help_window = tki.Label(self._master, image=self._help_image)
         help_window.place(x=0, y=0, relheight=1, relwidth=1)

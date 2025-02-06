@@ -1,8 +1,8 @@
-from boggle_board_randomizer import randomize_board
+from src.boggle_board_randomizer import randomize_board
 from boggle_gui import BoggleGui
 from boggle_model import BoggleModel
 
-WORDS_PATH = "boggle_dict.txt"
+WORDS_PATH = "../data/boggle_dict.txt"
 
 
 class BoggleController:

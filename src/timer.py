@@ -1,7 +1,7 @@
 import tkinter as tki
 import tkinter.font as tkif
 
-from color_pallete import SECONDARY_TEXT_COLOR, BG_COLOR
+from src.color_pallete import SECONDARY_TEXT_COLOR, BG_COLOR
 
 
 class Timer:

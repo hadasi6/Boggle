@@ -1,6 +1,6 @@
 import tkinter as tki
 import tkinter.font as tkif
-from color_pallete import BG_COLOR, HIGHLIGHT_COLOR
+from src.color_pallete import HIGHLIGHT_COLOR
 
 
 class StartScreenGui:
@@ -13,7 +13,7 @@ class StartScreenGui:
         frame = tki.Frame(self._master)
         frame.pack(fill=tki.BOTH, expand=True)
         self._frame = frame
-        bg_image = tki.PhotoImage(file="background.png")
+        bg_image = tki.PhotoImage(file="../assets/background.png")
         self._bg_image = bg_image  # Fixes a bug in tkinter where the image is freed
         background = tki.Label(self._frame, image=bg_image)
         background.place(x=0, y=0, relheight=1, relwidth=1)
