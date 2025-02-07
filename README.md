@@ -18,7 +18,7 @@ The Boggle game is structured following the Model-View-Controller (MVC) design p
 3. **End**: Timer runs out, final score displayed, option to restart or exit.
 
 ---
-## Screenshots
+## Media
 
 Start Screen:
 
